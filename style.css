@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    color: aliceblue;
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left:5em;
+}
+
+nav ul{
+    padding-right: 9em;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 0 30px;
+}
+
+.top {
+    padding-right: 3em;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+
+}
+
+
+.side img {
+    width: 40%;
+    height: 75%;
+}
